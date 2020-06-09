@@ -13,4 +13,5 @@ def solution(bridge_length, weight, truck_weights):
         elif i == total_trucks-1:
             temp = 0
             answer+=bridge_length
+    #왜 안되는 것일까요
     return answer
