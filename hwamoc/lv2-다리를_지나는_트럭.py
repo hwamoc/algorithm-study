@@ -3,7 +3,7 @@ from collections import deque
 def solution(bridge_length, weight, truck_weights):
     time = 0
     sum = 0
-    bridge_q =  deque([0] * bridge_length)
+    bridge_q = deque([0] * bridge_length)
 
     while bridge_q:
         time += 1

@@ -1,5 +1,5 @@
 def solution(phone_book):
-    phone_book.sort()
+    phone_book.sort(key=len)
 
     for i in range(1, len(phone_book)):
         if phone_book[i].find(phone_book[0]) == 0:
