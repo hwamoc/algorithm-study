@@ -22,3 +22,4 @@ def solution(numbers):
         #원본 자릿수만큼만 자른 후 차례대로 답에 붙임 
         result+=str(number[0])[:number[1]]
     return str(int(result))#[0,0,0,0] case 때문에..
+    #복잡도 == sorted()함수의 복잡도
