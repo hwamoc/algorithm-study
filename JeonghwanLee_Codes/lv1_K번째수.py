@@ -1,4 +1,4 @@
-def sort(array):
+def sort(array): #연습삼아 정렬 구현..
     print(array)
     result = [0 for i in range(len(array))]
     for i in range(len(array)):

@@ -15,7 +15,7 @@ def solution(numbers):
             temp_number+=number
         equalized_number.append([int(temp_number[:4]),number_length])
     
-    #만든 숫자 기준으로 정렬
+    #만든 숫자 기준으로 정렬(2차 기준은 자릿수가 작은 순)
     sorted_number = sorted(equalized_number,key=lambda x:(-x[0],x[1]))
     result = ""
     for number in sorted_number:
