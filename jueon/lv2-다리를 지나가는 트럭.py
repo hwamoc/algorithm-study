@@ -10,3 +10,13 @@ def solution(bridge_length, weight, truck_weights):
                 road.append(truck_weights.pop(0))
             else: road.append(0)
     return time
+
+
+
+def solution2(bridge_length, weight, truck_weights):
+    time=0
+    road=[0]*bridge_length
+
+    while road:
+        time=time+1
+        
