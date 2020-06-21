@@ -6,8 +6,8 @@ def solution(answers):
     result = []      # 수포자들의 정답수를 count하는 배열
 
     for idx, answer in enumerate(answers):
-        if answer == pattern1[idx%len(pattern1)]:   # 수포자들의 답안 인덱스 - 정답의 인덱스를 순환주기로 나눈 나머지
-            score[0] += 1                           # 수포자의 답과 정답을 비교, 정답일 경우 해당 수포자의 인덱스에 정답수 +1
+        if answer == pattern1[idx%len(pattern1)]:   # 수포자들의 답안 인덱스: 정답의 인덱스를 수포자 답안의 순환주기로 나눈 나머지
+            score[0] += 1                           # 수포자의 답과 정답을 비교, 정답일 경우 해당 수포자에 정답수 +1
         if answer == pattern2[idx%len(pattern2)]:
             score[1] += 1
         if answer == pattern3[idx%len(pattern3)]:
