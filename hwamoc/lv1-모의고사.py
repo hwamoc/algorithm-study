@@ -31,6 +31,6 @@ def solution(answers):
 #                 right[i] += 1                     # 수포자의 답과 정답을 비교, 정답일 경우 해당 수포자의 인덱스에 정답수 +1
 #     return [i + 1 for i, v in enumerate(right) if v == max(right)]      # 가장 많이 정답을 맞춘 사람 인덱스를 리턴
 
-solution([1, 2, 3, 4, 5])
-solution([1, 3, 2, 4, 2])
+print(solution([1, 2, 3, 4, 5]))
+print(solution([1, 3, 2, 4, 2]))
 

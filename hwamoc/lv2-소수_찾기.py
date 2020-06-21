@@ -44,5 +44,5 @@ def solution(n):
     return len(a)
 '''
 
-solution("17")
-solution("011")
+print(solution("17"))
+print(solution("011"))
