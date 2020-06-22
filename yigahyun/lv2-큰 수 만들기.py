@@ -1,6 +1,7 @@
 def solution(number, k):
     num = list(number)
     num_list = [num[0]]
+    i = 1
     answer = ''
     cnt = 0
     while i < len(num):
@@ -20,4 +21,3 @@ def solution(number, k):
     for i in range(len(number)-k):
         answer += num_list[i]
     return answer
-print(solution(number="1231234",k=3))
