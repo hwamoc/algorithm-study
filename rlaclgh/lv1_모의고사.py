@@ -16,3 +16,4 @@ def solution(answers):
     answer.append(score3)
     max_ans = max(answer)
     return [i for i in range(len(answer)) if answer[i]== max_ans ]
+    ####
